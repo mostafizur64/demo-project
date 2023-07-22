@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*body {
+  font-family: 'Be Vietnam Pro';
+}
+
+/* .navbar-container {
+  width: 1520px;
+  margin: 0 auto;
+  display: flex;
+ 
+} */
+/* @media (min-width: 1520px) {
+  .navbar-container {
+    justify-content: center;
+    max-width: 1520px;
+    margin: 0 auto;
+  }
+} */
+.background-color {
+  background-color: #02050F;
+  ;
+}
+
+.navbar-nav>li {
+  margin-right: 60px;
+}
+
+.nav-item i,
+.nav-item a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav-item a {
+  height: 21;
+}
+
+/* FAQ css  */
+.faq-item h1 {
+  font-size: 60px;
+  width: 877px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.faq-item p {
+  top: 240px;
+  font-size: 20px;
+  width: 831px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.lineSVG {
+  width: 20px;
+  margin-top: 0;
+}
+
+/* Custom styles for the accordion header and button */
+.custom-header {
+  background-color: #02050F;
+}
+
+.custom-button {
+  background-color: #02050F;
+  color: white;
+}
+
+/* Set background color of accordion body when collapsed */
+.custom-accordion .accordion-button:not(.collapsed) {
+  background-color: #191438;
+  color: white;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+/* Set color of the plus and minus icons on the collapsed accordion button */
+.custom-accordion .accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-plus-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z'/%3E%3C/svg%3E");
+  transition: .5s;
+
+}
+
+/* Set color of the minus icon on the expanded accordion button */
+.custom-accordion .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-dash-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z'/%3E%3C/svg%3E");
+  background-color: #191438;
+
+}
+
+
+
+.custom-container {
+  max-width: 1095px;
+  height: 1131px;
+  margin: 0 auto;
+
+}
+
+.accordion {
+  margin-top: 20px;
+}
+
+.accordion-item {
+  background-color: #191438;
+}
+
+.accordion-button {
+  background-color: #02050F;
+}
+
+.custom-header {
+  background-color: #02050F;
+}
+
+.custom-button {
+  background-color: #02050F;
+  color: white;
+}
+
+/* footer  */
+.footer {
+  margin-top: 80px;
+}
+
+.blur {
+  position: absolute;
+  width: 459px;
+  height: 512px;
+  border-radius: 512px;
+  background: #A716AA;
+  z-index: -1; 
+  top: 400px;
+  right: 10px;
+  filter: blur(450px);
+  opacity: .2;
+}
